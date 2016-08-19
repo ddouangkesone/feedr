@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>FUUUUUUCK 2</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+
+
+    <!-- This is the Nav Bar -->
+    <nav class="light-blue lighten-1" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Dosebots Feedr</a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="/app2/app2.html"> Instagram</a></li>
+              <li><a href="/index.html"> Reddit </a></li>
+            </ul>
+
+
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="/app2/index.html"> Instagram</a></li>
+                <li><a href="index.html"> Reddit </a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
+    <!-- End of the nav bar  -->
+
+
+<!-- Instagram button -->
+<div class="container center-align">
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+          <div class="center-btn">
+            <a class="waves-effect waves-light btn-large center-align" id="insta">Instagram</a>
+          </div>
+        </div>
+    </div>
+</div>
+
+    <!-- end of button -->
+
+<script id="insta-template-picture" type="text/x-handlebars-template">
+
+  <div class="col s4">
+    <img class="materialboxed responsive-img"  src="{{imgUrl}}"></image>
+    </div>
+
+</script>
+
+<script id="insta-template-video" type="text/x-handlebars-template">
+
+<div class="col s4">
+<iframe class="responsive-img" id="vid" frameborder="0" src="{{videoURL}}"allowfullscreen></iframe>
+</div>
+</div>
+
+</script>
+
+<div class="row container" id="content">
+</div>
+
+    <!-- start of the body -->
+
+
+
+
+
+
+
+
+
+
+        <!--  Scripts-->
+        <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+        <script src="app2.js"></script>
+
+
+</body>
+
+</html>
